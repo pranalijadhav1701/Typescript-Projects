@@ -276,3 +276,10 @@ Development:
 
 Help:
    node dist/index.js --help
+
+
+   Available npm Commands:
+npm start → node dist/index.js (runs compiled JavaScript)
+npm run dev → ts-node src/index.ts (runs TypeScript directly)
+npm run build → tsc (compiles TypeScript to JavaScript)
+npm run watch → tsc --watch (watches for changes and rebuilds)
