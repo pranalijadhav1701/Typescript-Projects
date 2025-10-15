@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 const s1 = { name: "Anu", rollNo: 101 };
 console.log(`Student: ${JSON.stringify(s1)}`);
 // 2. Classes
@@ -162,3 +160,4 @@ console.log(`User Status: ${userStatus}`);
 let someValue = "This is a string";
 let strLength = someValue.length;
 console.log(`String Length: ${strLength}`);
+export {};
