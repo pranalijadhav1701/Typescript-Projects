@@ -1,0 +1,33 @@
+{
+  "name": "typescript-todo-cli",
+  "version": "1.0.0",
+  "description": "A console-based Todo List application built with TypeScript",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js",
+    "watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "keywords": [
+    "typescript",
+    "todo",
+    "cli",
+    "console",
+    "nodejs"
+  ],
+  "author": "TypeScript Tutorial",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "bin": {
+    "todo-cli": "./dist/index.js"
+  }
+}
