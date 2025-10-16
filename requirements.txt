@@ -1,0 +1,13 @@
+# TypeScript Project Dependencies
+# This file lists the main dependencies for this TypeScript project
+
+# Production Dependencies
+axios==1.12.2
+readline-sync==1.4.10
+
+# Development Dependencies  
+@types/node==24.7.2
+
+# Note: This is a TypeScript/Node.js project
+# Main dependency management is handled by package.json
+# To install dependencies, run: npm install
