@@ -1,5 +1,3 @@
-"use strict";
-Object.defineProperty(exports, "__esModule", { value: true });
 // 1. Basic Types
 // TypeScript adds type annotations to JavaScript variables.
 let id = 101;
@@ -76,3 +74,4 @@ function printId(id) {
     }
 }
 printId("abc123");
+export {};

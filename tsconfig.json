@@ -4,12 +4,13 @@
     // File Layout
     "rootDir": "./src",
     "outDir": "./dist",
+    
 
     // Environment Settings
     // See also https://aka.ms/tsconfig/module
     "module": "nodenext",
     "target": "es2016",  //the version of js that tsc compliler can generate  (ctrl + space )
-    "types": [],
+    "types": ["node"],
     // For nodejs:
     // "lib": ["esnext"],
     // "types": ["node"],
@@ -31,6 +32,9 @@
     // "noUnusedParameters": true,
     // "noFallthroughCasesInSwitch": true,
     // "noPropertyAccessFromIndexSignature": true,
+
+    "noImplicitAny": false, 
+    
 
     // Recommended Options
     "strict": true,
